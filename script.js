@@ -1,5 +1,6 @@
 const notify=document.querySelector("#notify");
 const email=document.querySelector("#email");
+const error=document.querySelector("#error");
 notify.addEventListener("click", ()=>{
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (emailPattern.test(email.value)){
